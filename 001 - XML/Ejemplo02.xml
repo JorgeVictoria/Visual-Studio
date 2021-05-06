@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<peliculas>
+    <pelicula>
+        <titulo>Green Book</titulo>
+        <director>Peter Farrelly</director>
+    </pelicula>
+    <pelicula>
+        <director>Bryan Singer</director>
+        <titulo>Bohemian Rhapsody</titulo>
+    </pelicula>
+    <autor>cristina</autor>
+</peliculas>

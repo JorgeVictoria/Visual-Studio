@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<series_plataformas>
+    <serie>
+        <titulo>The Umbrella Academy</titulo>
+        <plataforma>Neflix</plataforma>
+    </serie>
+    <serie>
+        <titulo>True detective</titulo>
+        <plataforma>HBO</plataforma>
+    </serie>
+    <serie>
+        <titulo>Sex education</titulo>
+        <plataforma>Neflix</plataforma>
+    </serie>
+    <serie>
+        <titulo>Juego de tronos</titulo>
+        <plataforma>HBO</plataforma>
+    </serie>
+    <serie>
+        <titulo>Euphoria</titulo>
+        <plataforma>HBO</plataforma>
+    </serie>
+</series_plataformas>
