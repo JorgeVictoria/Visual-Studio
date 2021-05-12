@@ -6,10 +6,10 @@
 	],
 	"settings": {
 		"java.project.sourcePaths": [
-			"011 - Java/Tema 06/Temario/src",
-			"011 - Java/Tema 05/Temario/src",
+			"011 - Java/Tema 07/temario/src",
 			"011 - Java/Tema 02/temario/src",
-			"011 - Java/Tema 07/temario/src"
+			"001 - JAVA/Tema08/src/Temario",
+			"001 - JAVA/Tema08/src"
 		]
 	}
 }
