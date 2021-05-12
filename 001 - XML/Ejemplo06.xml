@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mediosDeTransporte>
-    <Tren velocidad="300 km/h" />
-    <Avion velocidad="1040 kilómetros por hora" />
-    <bicicleta velocidad="v&lt;100km/h" />
-    <patinete velocidad_maxima="50 km/h" />
-</mediosDeTransporte>
