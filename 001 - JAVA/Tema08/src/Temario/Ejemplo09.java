@@ -4,7 +4,7 @@ public class Ejemplo09 {
 
     public static void main(String[] args) {
     
-        Carta carta1 = new Carta(3, 2);
+        Carta carta1 = new Carta(4, 3);
         Carta carta2 = new Carta(4, 2);
 
         boolean esIgual = carta1.equals(carta2);

@@ -29,8 +29,8 @@ public class Ejemplo12 {
         lj.sort(
             new Comparator<JugadorFutbol>(){
                 public int compare(JugadorFutbol j1, JugadorFutbol j2){
-                    if(j1.getFicha() > j2.getFicha()) return 1;
-                    if(j1.getFicha() < j2.getFicha()) return -1;
+                    if(j1.getFicha() < j2.getFicha()) return 1;
+                    if(j1.getFicha() > j2.getFicha()) return -1;
                     return 0;
                 }
             }
