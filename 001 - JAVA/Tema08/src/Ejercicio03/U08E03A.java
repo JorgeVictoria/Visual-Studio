@@ -26,9 +26,9 @@ public class U08E03A {
         System.out.println(colaString.toString());
 
         //cola de Personas
-        colaPersonas.encolar(new Persona("Jorge",  45 ));
-        colaPersonas.encolar(new Persona("Victoria", 46));
-        colaPersonas.encolar(new Persona("Andreu", 44));
+        colaPersonas.encolar(new Persona("Domingo",  45 ));
+        colaPersonas.encolar(new Persona("Fiesta", 46));
+        colaPersonas.encolar(new Persona("Segura", 44));
         System.out.println(colaPersonas.toString());
         colaPersonas.desencolar();
         System.out.println(colaPersonas.toString());

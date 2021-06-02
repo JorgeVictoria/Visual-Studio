@@ -1,0 +1,14 @@
+*       {   text-align: center;}
+
+body    {   background-color: cornsilk;}
+
+p, h3   {   color: red}
+
+#para2  {   color: cadetblue;
+            font-family:'Gill Sans MT', sans-serif;}
+
+.fuente {   font-family: 'Trebuchet MS', sans-serif;}
+
+p.fuente{   font-style: italic;}
+
+.gordo  {   font-weight: bold;}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <title>Maps Images</title>
+    <link rel="stylesheet" href="style2.css">
+    <script src="scripts.js"></script>
+
+</head>
+
+<body>
+
+    <h3>Image maps</h3>
+
+    <p>Click on the computer, the phone or the cup of coffee to gp to a new page</p>
+    
+    <img src="imagenes/workplace.jpg" alt="workplace" usemap="#workmap" style="width: 400px; height: 379px;">
+
+    <img src="imagenes/frenchfood4.jpg" alt="croissant" usemap="#workmap2" style="width: 400px; height: 379px;">
+    
+
+    <map name="workmap">
+        <!--ejex 34 ejey 44 ejex 270 ejey 350-->
+        <area shape="rect" coords="34,44,270,350" href="https://www.apple.com/es/macbook-pro/" alt="laptop" target="_blank">
+        <area shape="rect" coords="290,172,333,250" href="https://www.apple.com/es/iphone/" alt="smartphone" target="_blank">
+        <!--ejex 337 ejey 330 para el centro, 44 es el radio-->
+        <area shape="circle" coords="337,300,44" href="https://www.nespresso.com/es/es/home" alt="coffee" target="_blank" onclick="myFunction()">
+    </map>
+
+    <map name="workmap2">
+        <area shape="poly" coords="190,78,143,86,137,99,112,105,94,127,65,143,45,172,42,223,68,238,129,227,183,200,217,133,205,94" href="https://www.elcorteingles.es/supermercado/0110120671300752-peiron-and-torrent-croissants-estuche-250-g/" alt="croissant" target="_blank">
+    </map>
+
+    
+   
+
+</body>
+</html>

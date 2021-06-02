@@ -1,0 +1,14 @@
+body    {   background-color: azure;}
+
+h2, p   {   font-family: 'Arial Narrow', Arial, sans-serif; }
+
+h2      {   text-align: center;
+            font-size: 48px;}
+
+img   {   width: 514px;
+          height: 600px;
+          border-style: solid;}
+
+a:visited, a:link, a:hover, a:visited {
+            color:black;
+}

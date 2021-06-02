@@ -78,7 +78,11 @@ public class ColaArrayObj implements ColaObj {
         //mientras la posicion de cabeza no sea mayor que la posicion del fin de la cola
         if (cabeza <= fin){
             for(int i = cabeza; i <= fin; i++){
-                cadena = cadena + datos[i] + " ";
+                if (datos[i].getClass().getName().equals("Ejercicio03.Persona")){
+                    Persona temp = (Persona)datos[i];
+                    cadena = cadena + temp.getNombre() + " " + temp.getEdad() + " ";
+                } 
+                else cadena = cadena + datos[i] + " ";
             }
         }
 
@@ -88,10 +92,18 @@ public class ColaArrayObj implements ColaObj {
         //y posteriormente desde el incicio del array hasta el fin de la colas
         else {
             for(int i = cabeza; i < maxLongitud; i++){
-                cadena = cadena + datos[i] + " ";
+                if (datos[i].getClass().getName().equals("Ejercicio03.Persona")){
+                    Persona temp = (Persona)datos[i];
+                    cadena = cadena + temp.getNombre() + " " + temp.getEdad() + " ";
+                } 
+                else cadena = cadena + datos[i] + " ";
             }
             for (int i = 0; i <= fin; i++){
-                cadena = cadena + datos[i] + " ";
+                if (datos[i].getClass().getName().equals("Ejercicio03.Persona")){
+                    Persona temp = (Persona)datos[i];
+                    cadena = cadena + temp.getNombre() + " " + temp.getEdad() + " ";
+                } 
+                else cadena = cadena + datos[i] + " ";
             }
         }
     }

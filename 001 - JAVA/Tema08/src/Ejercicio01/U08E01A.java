@@ -22,7 +22,7 @@ public class U08E01A {              //inicio clase
         long a = System.currentTimeMillis();    //empezamos a contar
 
         //fichero desde el cual vamos a trabajar
-        File fichero = new File("C:\\workspace\\quijote.txt");
+        File fichero = new File("C:\\temp\\quijote.txt");
         
         try {
             //indicamos desde vamos a coger los datos, en este caso el fichero
@@ -79,8 +79,7 @@ public class U08E01A {              //inicio clase
 		}
 
         
-        //cogemos los atributos del objeto que ocupa la primera posicion
-        //los pasamos a temp para empezar la busqueda de la palabra mas larga
+         //creamos un para empezar la busqueda de la palabra mas larga
         temp = new Palabras(",",0);
         
         //volvemos a correr el array para encontrar la palabra de mas de 5 letras con mas repeticiones
