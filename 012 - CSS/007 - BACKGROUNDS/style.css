@@ -1,0 +1,34 @@
+body    {   background-color: lightblue;}
+
+h3,p      {   text-align: center;
+              font-family:'Franklin Gothic Medium', sans-serif}
+
+p.yellow       {   background-color: darkkhaki;}
+
+table   {   border-collapse: collapse;
+            width: 100%;
+            border: 1px solid black;}
+
+td      {   border: 1px solid black;
+            width: 25%;
+            height: 80px;
+            text-align: center;
+            background-color: green;}
+
+.one    {   opacity: 1;}
+
+.two    {   opacity: 0.6;}
+
+.three  {   opacity: 0.3;}
+
+.four   {   opacity: 0.1;}
+
+.uno    {   background-color: rgba (0,128,0,1);}
+
+.dos    {   background-color: rgba(0, 128, 0, 0.6);}
+
+.tres   {   background-color: rgba(0, 128, 0, 0.3);}
+
+.cuatro {   background-color: rgba(0, 128, 0, 0.1);}
+
+
