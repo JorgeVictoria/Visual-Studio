@@ -7,37 +7,30 @@ public class Ejercicio08 {
     public static void main(String[] args) {
         
         //variables locales
-        String nombreCompleto;                  //para almacenar el nombre completo
-        String bloque;                          //vamos almacenando cada bloque del nombre completo
-        String iniciales = "";                       //vamos almacenando las iniciales de cada bloque
-        Scanner stdin = new Scanner(System.in); //entrada por teclado
+        String nombreCompleto;                          //para almacenar el nombre completo
+        String nombre, ape1, ape2;                      //vamos almacenando cada bloque del nombre completo
+        Scanner stdin = new Scanner(System.in);         //entrada por teclado
+        String[] partes;                                //array donde guardaremos cada parte del nombre
 
         //pedimos el nombre completo
         System.out.print("Teclee su nombre y dos apellidos (sin particulas): ");
         nombreCompleto = stdin.nextLine();
 
-        //cogemos el nombre
-        //cogemos el trozo desde el inicio hasta el primer espacio en blanco. La primera letra del bloque la pasamos a iniciales. imprimimos el nombre
-        bloque = nombreCompleto.substring(0, nombreCompleto.indexOf(" ", 0));
-        iniciales = iniciales + bloque.charAt(0);  
-        System.out.println("Su nombre es " + bloque.toUpperCase() + " y tiene " + bloque.length() + " letras.");
+        //almacenamos el nombre completo en un array. Lo dividimos por bloques, quitando el espacio en blanco
+        partes = nombreCompleto.split(" ");
 
-        //cogemos el primer apellido
-        //cogemos el trozo desde el primer espacio en blanco hasta el segundo
-        //La primera letra del bloque la pasamos a iniciales. imprimimos el apellido
-        bloque = nombreCompleto.substring(nombreCompleto.indexOf(" ", 0), nombreCompleto.lastIndexOf(" "));
-        bloque = bloque.trim();
-        iniciales = iniciales + bloque.charAt(0); 
-        System.out.println("Su primer apellido es " + bloque.toUpperCase() + " y tiene " + bloque.length() + " letras.");
+        //asignamaos a cada parte su bloque
+        nombre = partes[0];
+        ape1 = partes[1];
+        ape2 = partes[2];
 
-        //cogemos el segundo apellido
-        bloque = nombreCompleto.substring(nombreCompleto.lastIndexOf(" "), nombreCompleto.length());
-        bloque = bloque.trim();
-        iniciales = iniciales + bloque.charAt(0);  
-        System.out.println("Su segundo apellido es " + bloque.toUpperCase() + " y tiene " + bloque.length() + " letras.");
+        //mostramos datos por pantalla
+        System.out.println("Su nombre es " + nombre.toUpperCase() + " y tiene " + nombre.length() + " letras.");
+        System.out.println("Su primer apellido es " + ape1.toUpperCase() + " y tiene " + ape1.length() + " letras.");
+        System.out.println("Su segundo apellido es " + ape2.toUpperCase() + " y tiene " + ape2.length() + " letras.");
 
         //mostramos las iniciales
-        System.out.println("Sus iniciales son " + iniciales.toUpperCase() + ".");
+        System.out.println("Sus iniciales son " + nombre.charAt(0) + ape1.charAt(0) + ape2.charAt(0) + ".");
 
         //cerramos stdin
         stdin.close();

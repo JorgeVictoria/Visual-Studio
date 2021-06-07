@@ -67,6 +67,12 @@ public class UsarString {
         System.out.println("12345678".matches("\\d{8}"));
         System.out.println("12345678".matches("\\d{9}"));
         System.out.println("--------------");
+
+        System.out.println("metodo split");
+        String string = "Jorge Victoria Andreu";
+        String[] parts = string.split(" ");
+        System.out.println("ver ejercicio 08");
+        System.out.println("Y tambien pegarle un ojo al 10");
     }
     
 }

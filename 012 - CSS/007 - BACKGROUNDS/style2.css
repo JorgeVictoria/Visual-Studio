@@ -1,3 +1,7 @@
-body    {   background-image: url("images/paper.jpg");}
+body    {   background-image: url("images/paper.jpg");
+            /*background-repeat: repeat-y;*/
+            /*background-repeat: repeat-x;*/
+            background-repeat: no-repeat;
+            background-position: right top;}
 
 p       {   background-image: url("images/paper2.jpg");}

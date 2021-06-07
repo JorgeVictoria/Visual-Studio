@@ -6,3 +6,7 @@
 
 #nada   {   list-style-type: none;}
 
+body    {   background-image: url("images/paper.jpg");
+            background-repeat: no-repeat;
+            background-size: 100%;}
+
