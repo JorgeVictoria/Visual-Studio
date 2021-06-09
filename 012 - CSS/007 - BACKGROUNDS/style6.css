@@ -1,0 +1,20 @@
+#example1 { background-image: url("images/paper.jpg");
+            background-size:5%;
+            background-repeat: no-repeat;
+            background-origin: padding-box;
+            border: 10px dashed black;
+            padding: 25px;}
+
+#example2 { background-image: url("images/paper.jpg");
+            background-size:5%;
+            background-repeat: no-repeat;
+            background-origin: border-box;
+            border: 10px dashed black;
+            padding: 25px;}
+
+#example3 { background-image: url("images/paper.jpg");
+            background-size:5%;
+            background-repeat: no-repeat;
+            background-origin: content-box;
+            border: 10px dashed black;
+            padding: 25px;}

@@ -1,0 +1,32 @@
+table   {   border-style: dotted dashed solid double;
+            width: 100%;
+            border-color: black;
+            }
+
+td      {  
+            width: 10%;
+            height: 50px;
+            text-align: center;}
+
+.dotted {   border-style: dotted;}
+
+.dashed {   border-style: dashed;}
+
+.solid  {   border-style: solid;}
+
+.double {   border-style: double;}
+
+.groove {   border-style: groove;}
+
+.ridge  {   border-style: ridge;}
+
+.inset  {   border-style: inset;}
+
+.outset {   border-style: outset;}
+
+.none   {   border-style: none;}
+
+.hidden {   border-style: hidden;}
+
+caption {  font-size: 28px;
+            font-weight: 900;}

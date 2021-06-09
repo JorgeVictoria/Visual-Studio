@@ -1,0 +1,21 @@
+#example1 { background-image: url("images/tree2.png"), url("images/paper.jpg");
+            background-size: 10%,5%;
+            background-repeat: no-repeat;
+            background-origin: content-box, padding-box;
+            border: 10px dashed black;
+            padding: 25px;}
+
+#example2 { background-image: url("images/tree2.png"), url("images/paper.jpg");
+            background-size: 10%,5%;
+            background-repeat: no-repeat;
+            background-origin: content-box, border-box;
+            border: 10px dashed black;
+            padding: 25px;}
+
+#example3 { background-image: url("images/tree2.png"), url("images/paper.jpg");
+            background-size: 10%,5%;
+            background-repeat: no-repeat;
+            background-origin: content-box, content-box;
+            border: 10px dashed black;
+            padding: 25px;}
+

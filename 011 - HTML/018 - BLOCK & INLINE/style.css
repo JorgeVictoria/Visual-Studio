@@ -1,0 +1,11 @@
+.borde     {   border: 1px solid black;}
+
+.London     {   background-color: bisque;
+                text-align: center;
+                padding-bottom: 10px;
+                padding-top: 10px;
+                font-family: Tahoma, sans-serif;
+                margin: -8px;}
+
+span        {   font-weight: bold;
+                font-style: italic;}
