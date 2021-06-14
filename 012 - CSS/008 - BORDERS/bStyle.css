@@ -99,3 +99,30 @@ caption {  font-size: 28px;
 
 .sh3        {   border-bottom: 6px solid red;
                 background-color: lightgray;}
+
+.r1         {   border: 2px solid red;}
+
+.r2         {   border: 2px solid red;
+                border-radius: 5px;}
+
+.r3          {  border: 2px solid red;
+                border-radius: 8px;}
+
+.r4          {  border: 2px solid red;
+                border-radius: 12px;}
+
+.ex1        {   border-style: solid;
+                border-top: thick double #ff0000;}
+
+.ex2        {   border-style: solid;
+                border-bottom-style: dashed;}
+
+.ex3        {   border-style: solid;
+                border-left-width: 5px;}
+
+.ex4        {   border-style: solid;
+                border-color: #ff0000 #0000ff;}
+
+.ex5        {   border-style: solid;
+                border-right-color: #ff0000;
+                border-right-width: 5px;}
