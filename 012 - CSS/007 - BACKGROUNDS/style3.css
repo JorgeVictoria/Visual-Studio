@@ -1,6 +1,0 @@
-body    {   background-image: url("images/tree.jpg");
-            background-repeat: no-repeat;
-            background-position: right top;
-            margin-right: 850px;
-            /*background-attachment: scroll;*/
-            background-attachment: fixed;}  /*para dejar fija la imagen*/
